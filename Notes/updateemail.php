@@ -40,8 +40,8 @@ if(!$result){
 }else{
     //send email with link to activatenewemail.php with current email, new email and activation code
     $message = "Please click on this link prove that you own this email:\n\n";
-$message .= "http://mynotes.thecompletewebhosting.com/activatenewemail.php?email=" . urlencode($email) . "&newemail=" . urlencode($newemail) . "&key=$activationKey";
-if(mail($newemail, 'Email Update for you Online Notes App', $message, 'From:'.'developmentisland@gmail.com')){
+$message .= "http://http://sandy1709.host20.uk/OnlineNotes/activatenewemail.php?email=" . urlencode($email) . "&newemail=" . urlencode($newemail) . "&key=$activationKey";
+if(mail($newemail, 'Email Update for you Online Notes App', $message, 'From:'.'onlinenotes@sandy1709.host20.uk')){
        echo "<div class='alert alert-success'>An email has been sent to $newemail. Please click on the link to prove you own that email address.</div>";
 }
     
